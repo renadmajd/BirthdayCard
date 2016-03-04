@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F50057"
+    >
+  <FrameLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+>
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/b"
+     android:scaleType="fitXY"
+     />
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="From :"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:textColor="#9C27B0"
+   android:layout_marginLeft="155dp"
+    android:layout_marginTop="230dp"
+    />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Renad"
+          android:textSize="50sp"
+          android:textStyle="italic"
+          android:textColor="#EC407A"
+          android:layout_marginLeft="210dp"
+          android:layout_marginTop="260dp" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="7th,Sep,2016"
+          android:textSize="25sp"
+          android:textStyle="italic"
+          android:textColor="#EC407A"
+          android:layout_marginLeft="18dp"
+          android:layout_marginTop="445dp" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Thu"
+          android:textSize="25sp"
+          android:textStyle="italic"
+          android:textColor="#EC407A"
+          android:layout_marginLeft="65dp"
+          android:layout_marginTop="420dp" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="You’re a very special person. May today and all of your days be amazing!"
+          android:textSize="23sp"
+          android:textStyle="bold"
+          android:textColor="#000"
+          android:layout_marginLeft="160dp"
+          android:layout_marginTop="320dp"
+          />
+
+      <GridLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="right|center_vertical"></GridLayout>
+  </FrameLayout>
+
+</RelativeLayout>
